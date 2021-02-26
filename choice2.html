@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Run-Down House</title>
+        <link rel="icon" href="assets/img/logo.jpg">
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/bootstrap-icons.css">
+    </head>
+    
+    <body class="bg-dark text-light">
+        <nav class="navbar navbar-light bg-light navbar-expand-md container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-house-fill"></i> Game Menu
+            </a>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        <i class="bi bi-file-text"></i>About
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="text-center">
+            <h1>Choice 2: The Backyard</h1>
+            <img src="assets/img/old-shed.jpg" class="w-50 p-3">
+
+            <audio autoplay loop>
+                <source src="assets/sounds/background-music.wav">
+            </audio>
+
+            <audio autoplay>
+                <source src="assets/sounds/objects-falling.wav">
+            </audio>
+
+            <p class="m-1 p-4">You see an old shed but you hear a noise come from inside. Should you go take a look?</p>
+
+            <div class="row">
+                <div class="col-12 w-100">
+                    <a href="shed.html">
+                        <button type="button" class="btn btn-lg btn-primary m-1 w-25">Check the shed</button>
+                    </a>
+                </div>
+                <div class="col-12 w-100">
+                    <a href="intro.html">
+                        <button type="button" class="btn btn-lg btn-primary m-1 w-25">Back to the front of the house</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

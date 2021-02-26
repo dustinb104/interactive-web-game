@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Run-Down House</title>
+        <link rel="icon" href="assets/img/logo.jpg">
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/bootstrap-icons.css">
+    </head>
+    <body class="text-light bg-dark">
+        <nav class="navbar navbar-light bg-light navbar-expand-md container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-house-fill"></i> Game Menu
+            </a>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        <i class="bi bi-file-text"></i>About
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="text-center">
+            <h1>Story Introduction</h1>
+            <img src="assets/img/old-scary-house.jpg" width="500">
+
+            <audio autoplay loop>
+                <source src="assets/sounds/background-music.wav">
+            </audio>
+
+            <p class="m-1 p-4">You pull up to the house, left to you by your deceased uncle, in the middle of the woods. You are in search of his will. In which he left you the deed to the house and a lot of money. You have to get into the house. How will you do it?</p>
+            
+                <div class="row">
+                    <div class="col-12 w-100">
+                        <a href="choice1.html">
+                            <button type="button" class="btn btn-lg btn-primary m-1 w-25">Go to the front door.</button>
+                        </a>
+                    </div>
+                    <div class="col-12 w-100">
+                        <a href="choice2.html">
+                            <button type="button" class="btn btn-lg btn-primary m-1 w-25">Go to the backyard.</button>
+                        </a>
+                    </div>
+                </div>
+        </div>
+        <script src="scripts/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
